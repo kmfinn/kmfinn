@@ -1,3 +1,43 @@
 html {
   background-color: #E0FFFF;
 }
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: 	#32CD32;
+  text-decoration: none;
+}
+
+.nav-wrapper {
+  background-color: #E6E6FA;
+}
+
+.navbar {
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+}
+
+.nav-item {
+    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-item a {
+  text-transform: uppercase;
+  padding: 10px;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+}
