@@ -23,7 +23,12 @@ a {
 
 .nav-wrapper {
   background-color: #E6E6FA;
-  height: 60px
+  height: 60px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  box-shadow: (0 0 20px rgba(0,0,0,0.5));
 }
 
 .navbar {
@@ -91,4 +96,14 @@ a {
 
 .dropdown-item a:hover {
   background-color: #ccc;
+}
+
+#header {
+  text-align: center;
+  background-color: #E0FFFF;
+  height: calc(100vh - 60px);
+  box-sizing: border-box;
+  margin-top: 60px;
+  padding-top: 60px 0 0 0;
+
 }
