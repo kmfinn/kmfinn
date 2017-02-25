@@ -1,5 +1,5 @@
 html {
-  background-color: #E0FFFF;
+  background-color: #DA67FF;
 }
 
 body {
@@ -17,12 +17,12 @@ ul {
 }
 
 a {
-  color: 	#32CD32;
+  color: 	#A086F7;
   text-decoration: none;
 }
 
 .nav-wrapper {
-  background-color: #E6E6FA;
+  background-color: #84D8EB;
   height: 60px;
   position: fixed;
   left: 0;
@@ -71,7 +71,7 @@ a {
 
 .dropdown-menu {
   display: block;
-  background-color: #DA70D6;
+  background-color: #6DD4CB;
   position: absolute;
   right: 0;
   width: 200px;
@@ -89,7 +89,7 @@ a {
 }
 
 .dropdown-item a {
-  color: #00FF7F;
+  color: #A086F7;
   display: block;
   margin: 0;
 }
@@ -100,7 +100,7 @@ a {
 
 #header {
   text-align: center;
-  background-color: #E0FFFF;
+  background-color: #ABEBEA;
   height: calc(100vh - 60px);
   box-sizing: border-box;
   margin-top: 60px;
