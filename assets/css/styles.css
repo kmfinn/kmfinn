@@ -11,6 +11,11 @@ h1 {
   font-family: 'Open Sans', sans-serif;
 }
 
+img {
+  width: 350px;
+  vertical-align: bottom;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -18,7 +23,6 @@ ul {
 
 a {
   color: 	#366A75;
-  /*498F9E*/
   text-decoration: none;
 }
 
@@ -28,7 +32,7 @@ a {
   position: fixed;
   left: 0;
   right: 0;
-  top: 0;
+  top: 150px;
   box-shadow: (0 0 20px rgba(0,0,0,0.5));
 }
 
@@ -72,7 +76,7 @@ a {
 
 .dropdown-menu {
   display: block;
-  background-color: #6DD4CB;
+  background-color: #E7FFFE;
   position: absolute;
   right: 0;
   width: 200px;
@@ -90,7 +94,7 @@ a {
 }
 
 .dropdown-item a {
-  color: #A086F7;
+  color: #366A75;
   display: block;
   margin: 0;
 }
