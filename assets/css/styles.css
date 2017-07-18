@@ -11,12 +11,6 @@ h1 {
   font-family: 'Open Sans', sans-serif;
 }
 
-img {
-  max-width: 100%;
-  height: 150px;
-  width: auto;
-}
-
 ul {
   list-style: none;
   padding: 0;
@@ -25,6 +19,12 @@ ul {
 a {
   color: 	#366A75;
   text-decoration: none;
+}
+
+.landscape {
+  max-width: 100%;
+  height: 150px;
+  width: auto;
 }
 
 .nav-wrapper {
@@ -112,4 +112,10 @@ a {
   margin-top: 60px;
   padding-top: 60px 0 0 0;
 
+}
+
+.graduation {
+  float: left;
+  width: 400px;
+  height: 400px;
 }
