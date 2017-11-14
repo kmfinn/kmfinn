@@ -30,22 +30,16 @@ a {
 .nav-wrapper {
   background-color: #84D8EB;
   height: 60px;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 150px;
   box-shadow: (0 0 20px rgba(0,0,0,0.5));
 }
 
 .navbar {
   margin: 0 auto;
-  width: 500px;
   display: flex;
 }
 
 .nav-item {
     display: inline-block;
-    flex-grow: 1;
     text-align: center;
     position: relative;
 }
@@ -53,7 +47,6 @@ a {
 .nav-item a {
   text-transform: uppercase;
   padding: 10px;
-  margin: 10px;
   display: inline-block;
   position: relative;
 }
