@@ -8,7 +8,13 @@ body {
 }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 40px;
 }
 
 ul {
@@ -21,15 +27,9 @@ a {
   text-decoration: none;
 }
 
-.landscape {
-  max-width: 100%;
-  height: 150px;
-  width: auto;
-}
-
 .nav-wrapper {
   background-color: #84D8EB;
-  height: 60px;
+  height: 50px;
   box-shadow: (0 0 20px rgba(0,0,0,0.5));
 }
 
@@ -100,15 +100,18 @@ a {
 #header {
   text-align: center;
   background-color: #FFF;
-  height: calc(100vh - 60px);
   box-sizing: border-box;
-  margin-top: 60px;
-  padding-top: 60px 0 0 0;
-
+  padding: 0px 20px 30px 20px;
 }
 
 .graduation {
   float: left;
-  width: 400px;
-  height: 400px;
+  width: 100%;
+}
+
+.wide {
+  width:100%;
+  height:100%;
+  height:calc(100% - 1px);
+  background-size:cover;
 }
