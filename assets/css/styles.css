@@ -99,7 +99,6 @@ a {
 
 #header {
   text-align: center;
-  background-color: #FFF;
   box-sizing: border-box;
   padding: 0px 20px 30px 20px;
 }
@@ -114,4 +113,12 @@ a {
   height:100%;
   height:calc(100% - 1px);
   background-size:cover;
+}
+
+.title {
+  color: #333333;
+}
+
+.subtitle {
+  color: #4F4F4F;
 }
