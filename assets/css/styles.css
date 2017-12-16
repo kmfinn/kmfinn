@@ -1,36 +1,41 @@
-html {
-  background-color: #FFF;
-}
-
 body {
-  margin: 0;
-  font-family: 'Merriweather', serif;
+  font-family: 'Merienda', cursive;
 }
 
 h1 {
   font-family: 'Dancing Script', cursive;
-  font-size: 100px;
+  font-size: 75px;
+  color: #333333;
 }
 
 h2 {
   font-family: 'Kaushan Script', cursive;
   font-size: 40px;
+  color: #333333;
 }
 
 ul {
   list-style: none;
   padding: 0;
+
 }
 
 a {
-  color: 	#366A75;
-  text-decoration: none;
+  color: #333333;
+}
+
+hr.style-one {
+  border-style: solid;
+  border-color: #84D8EB;
+  border-width: 2px 0 0 0;
+  border-radius: 20px;
+  margin: 1px 1px 1px 1px;
 }
 
 .nav-wrapper {
-  background-color: #84D8EB;
+  background-color: white;
   height: 50px;
-  box-shadow: (0 0 20px rgba(0,0,0,0.5));
+  box-shadow: 2px 2px #d3d3d3;
 }
 
 .navbar {
@@ -51,56 +56,9 @@ a {
   position: relative;
 }
 
-.nav-item > a:after {
-  content: "";
-  display: none;
-  position: absolute;;
-  height: 2px;
-  width: 40px;
-  background-color: white;
-  left: calc(50% - 20px);
-  bottom: 0;
-}
-
-/* Display the line under text while hovering over */
-.nav-item a:hover:after {
-  display: block;
-
-}
-
-.dropdown-menu {
-  display: block;
-  background-color: #E7FFFE;
-  position: absolute;
-  right: 0;
-  width: 200px;
-  text-align: left;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-  border-radius: 5px;
-  padding: 5px 0;
-  transform: scale(0);
-  transform-origin: top right;
-  transition: transform ease-in-out 500ms
-}
-
-.dropdown-menu.open {
-  transform: scale(1);
-}
-
-.dropdown-item a {
-  color: #366A75;
-  display: block;
-  margin: 0;
-}
-
-.dropdown-item a:hover {
-  background-color: #ccc;
-}
-
 #header {
   text-align: center;
   box-sizing: border-box;
-  padding: 0px 20px 30px 20px;
 }
 
 .graduation {
@@ -115,10 +73,22 @@ a {
   background-size:cover;
 }
 
-.title {
-  color: #333333;
+.subtitle {
+  text-align: center;
+  padding-top: 100px;
 }
 
-.subtitle {
-  color: #4F4F4F;
+.jumbotron-image {
+  background-image: url("./../../images/Rocks.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 450px;
+}
+
+.header {
+  padding-bottom: 15px;
+}
+
+.logo {
+  color: #333333;
 }
